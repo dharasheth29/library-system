@@ -1,0 +1,17 @@
+{
+  "name": "library-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "pnpm --stream -r run start:dev",
+    "build": "pnpm --stream -r run build",
+    "test": "pnpm --stream -r run test",
+    "lint": "pnpm --stream -r run lint",
+    "clearCache": "pnpm --stream -r run clearCache",
+    "build-test": "pnpm --filter optus-eco build && pnpm --filter optus-eco-purchases build && pnpm --filter optus-eco-service-portal-api build && NODE_OPTIONS=--openssl-legacy-provider pnpm --filter lco-ui build && pnpm test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
