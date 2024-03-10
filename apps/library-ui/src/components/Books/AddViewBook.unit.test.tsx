@@ -5,12 +5,12 @@ import AddViewBook from "./AddViewBook";
 // import { addBookAPI } from "src/functions/BookAPI.function";
 
 // Mock the addBookAPI, deleteBookAPI, and getBooksAPI functions
-jest.mock("src/functions/Book.function", () => ({
-  addBookAPI: jest.fn(),
-  deleteBookAPI: jest.fn(),
-  getBooksAPI: jest.fn(),
-  updateBookAPI: jest.fn(),
-}));
+// jest.mock("src/functions/Book.function", () => ({
+//   addBookAPI: jest.fn(),
+//   deleteBookAPI: jest.fn(),
+//   getBooksAPI: jest.fn(),
+//   updateBookAPI: jest.fn(),
+// }));
 
 describe.skip("AddViewBook component", () => {
   beforeEach(() => {
