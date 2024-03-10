@@ -28,15 +28,9 @@
       "src/**/*.{ts,tsx}",
       "!src/index.tsx"
     ],
-    "transform": {
-      "^.+\\.tsx?$": "babel-jest"
-    },
     "transformIgnorePatterns": [
       "../../node_modules/(?!ky)"
-    ],
-    "moduleNameMapper": {
-      "^src/(.*)$": "<rootDir>/apps/library-ui/src/$1"
-    }
+    ]
   },
   "eslintConfig": {
     "extends": [
